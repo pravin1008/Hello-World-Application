@@ -6,7 +6,7 @@ pipeline {
           // Just print a Hello, Pipeline to the console
           echo "Hello, World!"
           // Compile a Java file. This requires JDKconfiguration from Jenkins
-          javac HelloWorld.java
+          javac HelloWord.java
           // Execute the compiled Java binary called HelloWorld. This requires JDK configuration from Jenkins
           java HelloWorld
           // Executes the Apache Maven commands, clean then package. This requires Apache Maven configuration from Jenkins
